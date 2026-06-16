@@ -42,8 +42,9 @@ def gameover(screen: pg.Surface) -> None:
     cry_img = pg.transform.rotozoom(
         pg.image.load("fig/8.png"), 0, 1.0
     )
-    
-    #座標の定義
+    """
+    座標の定義
+    """
     left_rct = cry_img.get_rect(
         center = (WIDTH//2 - 200, HEIGHT//2)
     )
